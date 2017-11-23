@@ -38,6 +38,7 @@ public class JTable extends javax.swing.JFrame {
         jTable2.getColumnModel().getColumn(4).setPreferredWidth(80);
         model = (DefaultTableModel)jTable2.getModel();
         model.setNumRows(0);
+        System.out.println("Daniel");
     }
     private void limpiar(){
         jTextField1.setText(null);
